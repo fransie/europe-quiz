@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="quiz_heading">Europäische Länder</string>
+    <string name="question_heading1">Frage 1</string>
+    <string name="question_heading2">Frage 2</string>
+    <string name="question_heading3">Frage 3</string>
+    <string name="question_heading4">Frage 4</string>
+    <string name="question1">Von welchem Land ist Berlin die Hauptstadt?</string>
+    <string name="question2">Welche dieser Länder haben mehr als 20 Millionen Einwohner?</string>
+    <string name="question3">Welche Stadt ist die Hauptstadt von Spanien?</string>
+    <string name="question4">WIe heißt dieses Land?</string>
+    <string name="country_ger">Deutschland</string>
+    <string name="country_nor">Norwegen</string>
+    <string name="country_bul">Bulgarien</string>
+    <string name="country_pol">Polen</string>
+    <string name="country_fra">Frankreich</string>
+    <string name="country_ukr">Ukraine</string>
+    <string name="country_hun">Ungarn</string>
+    <string name="country_lat">Lettland</string>
+    <string name="hint_Spain">Hier eintippen...</string>
+    <string name="check_button">Check meine Antworten</string>
+    <string name="credit">Bildherkunft: <a href="https://pixabay.com/de/users/GDJ-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1758828">Gordon Johnson</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1758828">Pixabay</a></string>
+    <string name="scoreMessageString">DEIN PUNKTESTAND\n%d von 7 Punkten. Glückwunsch!</string>
+    <string name="scoreMessageZeroPointsString">DEIN PUNKTESTAND\n0 von 7 Punkten. Versuch es nochmal! :-)</string>
+    <string name="app_name">Quiz App</string>
+    <string name="answerQuestions">Bitte beantworte erst alle Fragen.</string>
+</resources>

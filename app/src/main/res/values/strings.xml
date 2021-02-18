@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz_heading">European Countries</string>
+    <string name="question_heading1">Question 1</string>
+    <string name="question_heading2">Question 2</string>
+    <string name="question_heading3">Question 3</string>
+    <string name="question_heading4">Question 4</string>
+    <string name="question1">Which country\'s capital is called Berlin?</string>
+    <string name="question2">Which countries have more than 20 billion inhabitants?</string>
+    <string name="question3">Which city is the capital of Spain?</string>
+    <string name="question4">What is the name of this country?</string>
+    <string name="country_ger">Germany</string>
+    <string name="country_nor">Norway</string>
+    <string name="country_bul">Bulgaria</string>
+    <string name="country_pol">Poland</string>
+    <string name="country_fra">France</string>
+    <string name="country_ukr">Ukraine</string>
+    <string name="country_hun">Hungary</string>
+    <string name="country_lat">Latvia</string>
+    <string name="hint_Spain">Type here...</string>
+    <string name="check_button">Check my answers</string>
+    <string name="scoreMessageString">YOUR SCORE\n%d out of 7 points. Congratulations!</string>
+    <string name="scoreMessageZeroPointsString">YOUR SCORE\n0 out of 7 points. Try again! :-)</string>
+    <string name="credit">Picture credit: <a href="https://pixabay.com/de/users/GDJ-1086657/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1758828">Gordon Johnson</a> on <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1758828">Pixabay</a></string>
+    <string name="answerQuestions">Please answer all questions first.</string>
+</resources>

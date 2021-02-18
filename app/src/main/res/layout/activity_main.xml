@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/quiz_heading"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32sp" />
+
+        <TextView
+            style="@style/questionHeadingStyle"
+            android:text="@string/question_heading1" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/question1_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/question1_germany_correct"
+                style="@style/clickableStyle"
+                android:text="@string/country_ger" />
+
+            <RadioButton
+                style="@style/clickableStyle"
+                android:text="@string/country_nor" />
+
+            <RadioButton
+                style="@style/clickableStyle"
+                android:text="@string/country_bul" />
+
+            <RadioButton
+                style="@style/clickableStyle"
+                android:text="@string/country_pol" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/questionHeadingStyle"
+            android:text="@string/question_heading2" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question2" />
+
+        <CheckBox
+            android:id="@+id/question2_latvia_wrong"
+            style="@style/clickableStyle"
+            android:text="@string/country_lat" />
+
+        <CheckBox
+            android:id="@+id/question2_france_correct"
+            style="@style/clickableStyle"
+            android:text="@string/country_fra" />
+
+        <CheckBox
+            android:id="@+id/question2_hungary_wrong"
+            style="@style/clickableStyle"
+            android:text="@string/country_hun" />
+
+        <CheckBox
+            android:id="@+id/question2_ukraine_correct"
+            style="@style/clickableStyle"
+            android:text="@string/country_ukr" />
+
+        <LinearLayout
+            style="@style/QuestionStyle"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="0dp">
+
+            <TextView
+                style="@style/questionHeadingStyle"
+                android:layout_margin="0dp"
+                android:text="@string/question_heading3" />
+
+            <TextView
+                style="@style/QuestionStyle"
+                android:layout_margin="0dp"
+                android:text="@string/question3" />
+
+            <EditText
+                android:id="@+id/question3_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="24dp"
+                android:autofillHints="@string/hint_Spain"
+                android:hint="@string/hint_Spain"
+                android:inputType="textCapWords"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:backgroundTint="#560027" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionHeadingStyle"
+            android:text="@string/question_heading4" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/question4" />
+
+        <ImageView
+            style="@style/QuestionStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/latvia" />
+
+        <TextView
+            android:id="@+id/credit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#eee"
+            android:text="@string/credit"
+            android:textAlignment="textEnd"
+            android:textColor="#444"
+            android:textColorLink="#444"
+            android:textSize="12sp" />
+
+        <RadioGroup
+            android:id="@+id/question4_radio_group"
+            style="@style/clickableStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/clickableStyle"
+                android:text="@string/country_pol" />
+
+            <RadioButton
+                style="@style/clickableStyle"
+                android:text="@string/country_ger" />
+
+            <RadioButton
+                style="@style/clickableStyle"
+                android:text="@string/country_bul" />
+
+            <RadioButton
+                android:id="@+id/question4_latvia_correct"
+                style="@style/clickableStyle"
+                android:text="@string/country_lat" />
+
+        </RadioGroup>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="16dp"
+                android:background="#880E4F"
+                android:onClick="addUpAndDisplayScore"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="@string/check_button"
+                android:textColor="#FFF" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
